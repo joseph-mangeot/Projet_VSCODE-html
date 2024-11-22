@@ -1,0 +1,73 @@
+
+body{margin: 0px;
+    background: url(images/background_clouds.png);
+    background-size: cover;
+    background-position-x: center;
+}
+
+header{width:100%; background-color: #63a7d4;
+    padding-top: 50px;
+}
+.heading_info{width: 70%;
+    margin:0 auto;
+    justify-self: right;}
+#title{margin-bottom: .5em;
+    color: white;
+    font-size: xx-large;}
+#objectif{font-style: italic;
+    font-size:x-large;
+    font-weight: bold;}
+.info_contact{width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;}
+.contact_content{margin: 0%;
+    line-height:28px}
+.content_title{font-size: 110%;
+    color:white;}
+.content_object{font-size:110%;}
+
+main{width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.main_categories{
+    overflow: hidden;
+    padding: 0% 7%;
+    margin: 30px 0%;
+    border: 3px solid #63a7d4;
+    border-radius: 25px;
+    background-color: whitesmoke;}
+
+.categories_list{line-height:35px;
+    font-size:105%;}
+.list_content{font-weight:bold;font-size: 120%;}
+.list_content_colored{font-weight:bold;font-size: 110%;color: #63a7d4;}
+.list_details{margin-left: 2%;}
+
+.categories_gallery{display: flex;
+    margin: 0% 5%;
+    justify-content: space-between;
+    gap: 15px;
+}
+.gallery_logos{flex-basis: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.logos_images{max-width: 100%;}
+.logos_caption{max-width: 100%;
+    font-size: calc(12px + .2229vw);
+    overflow: hidden;
+    text-overflow: ellipsis;}
+
+footer{
+    height: 150px;
+    background-image: url(images/background_flowers.png);
+    background-position: center;
+}
